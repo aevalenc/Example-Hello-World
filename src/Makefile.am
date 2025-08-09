@@ -1,3 +1,6 @@
+ACLOCAL_AMFLAGS = -I m4
+
+
 # This is our dynamic library target. The 'lib_' prefix is a convention.
 lib_LTLIBRARIES = libhello.la
 
