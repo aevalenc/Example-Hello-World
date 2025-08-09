@@ -8,10 +8,10 @@ lib_LTLIBRARIES = libhello.la
 bin_PROGRAMS = hello_world
 
 # Define the source files for our dynamic library
-libhello_la_SOURCES = hello_lib.cpp hello_lib.h
+libhello_la_SOURCES = hello_world.cc hello_world.h
 
 # Define the source files and dependencies for our executable
-hello_world_SOURCES = main.cpp
+hello_world_SOURCES = main.cc
 hello_world_LDADD = libhello.la
 
 # Include the header file when compiling the main program
