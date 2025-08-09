@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+
+# Build system files
+build/
+.build/
+autom4te.cache/
