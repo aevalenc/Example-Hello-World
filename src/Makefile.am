@@ -16,3 +16,6 @@ hello_world_LDADD = libhello.la
 
 # Include the header file when compiling the main program
 hello_world_CXXFLAGS = -I.
+
+# Install hello_world.h to the include directory
+include_HEADERS = hello_world.h
